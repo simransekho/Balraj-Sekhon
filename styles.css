@@ -1,0 +1,87 @@
+/*Balraj Singh*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-style: normal;
+    font-family: serif;
+
+}
+p{
+    color: rgb(240, 56, 24); 
+
+}
+h1{
+    color: hwb(261 1% 93%)
+}
+
+h1 center{
+    text-align: center;
+}
+
+img, iframe{
+    width: 50%;
+    height: 50%;
+}
+body {
+    background-color: hsl(54, 87%, 69%);
+}
+h1{
+    text-align: center;
+}
+
+      
+h1{
+    margin: 1;
+}
+h1, h2{
+    font-variant: small-caps;
+}
+
+header,footer{
+    background-color: #6161e7;
+}
+
+h2 ~ p{
+    color: aquamarine;
+}
+
+h3 + p {
+    font-style: italic;
+}
+
+h1, h2{
+    font-variant: small-caps;
+}
+header, footer{
+    background-color: #c6a0eb;
+}
+header, footer{
+    background: linear-gradient(to right, red, yellow, green);
+      padding: 20px;
+      color: white;
+      text-align: center;
+
+}
+body{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 0.25rem;
+}
+img, iframe{
+    display: block; 
+    margin: 0 auto; 
+}
+img, iframe, header, footer{
+    border: 4px solid #e41111;
+    display: block; 
+    margin: 0 auto;
+}
+img, iframe, header, footer{
+    box-shadow: 5px 5px 5px hwb(262 1% 79% / 0.502); 
+      display: block; 
+      margin: 0 auto
+}
