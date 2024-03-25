@@ -85,3 +85,129 @@ img, iframe, header, footer{
       display: block; 
       margin: 0 auto
 }
+
+aside ul{
+    list-style-type: square;
+    list-style-type: circle;
+    list-style-type: disc;
+    list-style-type: none;
+}
+aside ol{
+    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
+    list-style-type: lower-roman;
+}
+nav {
+    background-color: rgb(91, 110, 6);
+    padding : .25rem;
+    margin : .25rem;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0 1rem 2rem 1rem ;
+    margin : 0.25rem;
+}
+nav ul li a{
+    background-color: rgb(240, 204, 45);
+    border: 0.1rem solid rgb(67, 45, 148);
+    display : block;
+    text-decoration: none;
+    color: rgb(45, 199, 39);
+    font-weight: bold;
+    font-variant: small-caps;
+}
+nav ul li a:hover{
+    background-color: rgb(27, 33, 53);
+    border-color: rgb(12, 1, 1); 
+    color: rgb(7, 131, 28);
+}
+#home-link{
+    float : left;
+    width : 50%;
+
+}
+#contact-link{
+    float : right;
+    width : 50%;
+}
+
+main{
+    margin : .25rem;
+    float : left;
+    width : 65%;
+}
+aside{
+    margin : .25rem;
+    float : right;
+    width : 30%;
+}
+footer{
+    clear : both;
+}
+#bio{
+    float : left;
+    width : 45%;
+}
+#relative-path-image
+{
+    float : right;
+    width : 35%;
+    background-color: hsla(291, 13%, 58%, 0.6); /*applies background colour*/
+    border : .1rem solid rgb(245, 145, 205); /*border shorthand property width, style colour */ 
+     /*rounds the corners of the border
+    border-radius*/
+    border-radius : 1rem; 
+    color :  rgb(51, 9, 34);
+}
+
+table, th, td{
+    border : .25rem solid black;
+}
+input[type=text]{
+    width : 100%;
+}
+#gender_radio{
+    border : none;
+    padding : 0px;
+}
+input[type=text], input[type=email], textarea, select{
+    width : 100%;
+}
+input[type=radio]{
+    width : 2rem;
+    height : 2rem;
+}
+label, legend{
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    color :rgb(51, 9, 34);
+    font-weight: bolder;
+}
+@media (max-width : 900px){
+    html{
+        font-size : 15px;
+    }
+    #bio,  #relative-path-image {
+        float :none;
+        width : 80%;
+    }
+}
+@media (max-width : 600px){
+    html{
+        font-size : 10px;
+    }
+    #home-link,  #contact-link, main, aside {
+        float : none;
+        width : 100% 
+    }
+    aside{
+        text-align: center;
+    }
+    table{
+        margin : auto;
+    }
+   
+
+}
+main
